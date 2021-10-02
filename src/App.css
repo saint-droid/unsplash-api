@@ -85,10 +85,42 @@
   .input {
     margin-bottom: 0;
   }
+  
 }
 
 @media only screen and (max-width: 600px) {
     .card-list {
         column-count: 1;
+    }
+    .label {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      display: none;
+    }
+    .container {
+      margin: 0 auto;
+      max-width: auto;
+      padding: 5px;
+    }
+    .title {
+      font-size: 1.4rem;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px 0;
+    }
+    .form {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .card--image {
+      margin: auto;
+      flex: 20%;
+      margin-top: 1rem;
+      border-radius: 10px;
     }
 }
